@@ -14,10 +14,11 @@ public class ForJenkinsJunitTest {
         assertThat(1).isEqualTo(1);
     }
 
-//    @Test
-//    public void alwaysFalse() {
-//        assertThat(2).isEqualTo(1);
-//
-//    }
+    @Test
+    public void alwaysFalse() {
+
+        int value=2;
+        assertThat(value).isEqualTo(1);
+    }
 
 }
